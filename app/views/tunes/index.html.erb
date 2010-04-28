@@ -1,0 +1,24 @@
+<h1>Listing tunes</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+    <th>Episode count</th>
+  </tr>
+
+<% @tunes.each do |tune| %>
+  <tr>
+    <td><%=h tune.name %></td>
+    <td><%=h tune.age %></td>
+    <td><%=h tune.episode_count %></td>
+    <td><%= link_to 'Show', tune %></td>
+    <td><%= link_to 'Edit', edit_tune_path(tune) %></td>
+    <td><%= link_to 'Destroy', tune, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New tune', new_tune_path %>

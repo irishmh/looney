@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  age: 
+  episode_count: 
+
+two:
+  name: MyString
+  age: 
+  episode_count: 

@@ -1,0 +1,18 @@
+<p>
+  <b>Name:</b>
+  <%=h @tune.name %>
+</p>
+
+<p>
+  <b>Age:</b>
+  <%=h @tune.age %>
+</p>
+
+<p>
+  <b>Episode count:</b>
+  <%=h @tune.episode_count %>
+</p>
+
+
+<%= link_to 'Edit', edit_tune_path(@tune) %> |
+<%= link_to 'Back', tunes_path %>

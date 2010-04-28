@@ -1,0 +1,509 @@
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (15.6ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateTunes (20100427232142)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCREATE TABLE "tunes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100427232142')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("tunes")[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-27 18:25:26) [GET]
+
+ActionController::RoutingError (No route matches "/looney" with {:method=>:get}):
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-27 18:25:34) [GET]
+
+ActionController::RoutingError (No route matches "/looneys" with {:method=>:get}):
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-27 18:25:42) [GET]
+
+ActionController::RoutingError (No route matches "/looneies" with {:method=>:get}):
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-27 18:25:54) [GET]
+
+ActionController::RoutingError (No route matches "/loonies" with {:method=>:get}):
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing TunesController#index (for 127.0.0.1 at 2010-04-27 18:26:06) [GET]
+  [4;36;1mTune Load (0.0ms)[0m   [0;1mSELECT * FROM "tunes" [0m
+Rendering template within layouts/tunes
+Rendering tunes/index
+Completed in 2746ms (View: 2730, DB: 0) | 200 OK [http://localhost/tunes]
+
+
+Processing TunesController#new (for 127.0.0.1 at 2010-04-27 18:26:11) [GET]
+Rendering template within layouts/tunes
+Rendering tunes/new
+
+ActionView::TemplateError (undefined method `age' for #<Tune id: nil, name: nil, created_at: nil, updated_at: nil>) on line #12 of app/views/tunes/new.html.erb:
+9:   </p>
+10:   <p>
+11:     <%= f.label :age %><br />
+12:     <%= f.text_field :age %>
+13:   </p>
+14:   <p>
+15:     <%= f.label :episode_count %><br />
+
+    app/views/tunes/new.html.erb:12
+    app/views/tunes/new.html.erb:3
+    app/controllers/tunes_controller.rb:29:in `new'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (93.6ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateTunes (20100427232142)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("tunes")[0m
+
+
+Processing TunesController#new (for 127.0.0.1 at 2010-04-27 18:27:13) [GET]
+Rendering template within layouts/tunes
+Rendering tunes/new
+
+ActionView::TemplateError (undefined method `age' for #<Tune id: nil, name: nil, created_at: nil, updated_at: nil>) on line #12 of app/views/tunes/new.html.erb:
+9:   </p>
+10:   <p>
+11:     <%= f.label :age %><br />
+12:     <%= f.text_field :age %>
+13:   </p>
+14:   <p>
+15:     <%= f.label :episode_count %><br />
+
+    app/views/tunes/new.html.erb:12
+    app/views/tunes/new.html.erb:3
+    app/controllers/tunes_controller.rb:29:in `new'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (62.4ms)
+Rendered rescues/_request_and_response (15.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TunesController#index (for 127.0.0.1 at 2010-04-27 18:27:17) [GET]
+  [4;36;1mTune Load (0.0ms)[0m   [0;1mSELECT * FROM "tunes" [0m
+Rendering template within layouts/tunes
+Rendering tunes/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/tunes]
+
+
+Processing TunesController#new (for 127.0.0.1 at 2010-04-27 18:27:21) [GET]
+Rendering template within layouts/tunes
+Rendering tunes/new
+
+ActionView::TemplateError (undefined method `age' for #<Tune id: nil, name: nil, created_at: nil, updated_at: nil>) on line #12 of app/views/tunes/new.html.erb:
+9:   </p>
+10:   <p>
+11:     <%= f.label :age %><br />
+12:     <%= f.text_field :age %>
+13:   </p>
+14:   <p>
+15:     <%= f.label :episode_count %><br />
+
+    app/views/tunes/new.html.erb:12
+    app/views/tunes/new.html.erb:3
+    app/controllers/tunes_controller.rb:29:in `new'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (62.4ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateTunes (20100427232142)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("tunes")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateTunes (20100427232142)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mDROP TABLE "tunes"[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100427232142'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateTunes (20100427232142)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCREATE TABLE "tunes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100427232142')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("tunes")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateTunes (20100427232142)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mDROP TABLE "tunes"[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100427232142'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateTunes (20100427232142)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCREATE TABLE "tunes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "age" integer, "episode_count" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100427232142')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("tunes")[0m
+
+
+Processing TunesController#new (for 127.0.0.1 at 2010-04-27 18:30:52) [GET]
+Rendering template within layouts/tunes
+Rendering tunes/new
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/tunes/new]
+
+
+Processing TunesController#create (for 127.0.0.1 at 2010-04-27 18:31:17) [POST]
+  Parameters: {"commit"=>"Create", "tune"=>{"name"=>"Tweety", "episode_count"=>"1000", "age"=>"3"}, "authenticity_token"=>"yKT3drvS47L6BxN/1n6UAZF7sKJrAcvB7LggwZBJuoM="}
+  [4;35;1mTune Create (15.6ms)[0m   [0mINSERT INTO "tunes" ("name", "updated_at", "episode_count", "age", "created_at") VALUES('Tweety', '2010-04-27 23:31:17', 1000, 3, '2010-04-27 23:31:17')[0m
+Redirected to http://localhost:3333/tunes/1
+Completed in 31ms (DB: 16) | 302 Found [http://localhost/tunes]
+
+
+Processing TunesController#show (for 127.0.0.1 at 2010-04-27 18:31:17) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mTune Load (0.0ms)[0m   [0;1mSELECT * FROM "tunes" WHERE ("tunes"."id" = 1) [0m
+Rendering template within layouts/tunes
+Rendering tunes/show
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/tunes/1]
+
+
+Processing TunesController#edit (for 127.0.0.1 at 2010-04-27 18:31:19) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mTune Load (0.0ms)[0m   [0mSELECT * FROM "tunes" WHERE ("tunes"."id" = 1) [0m
+Rendering template within layouts/tunes
+Rendering tunes/edit
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/tunes/1/edit]
+
+
+Processing TunesController#index (for 127.0.0.1 at 2010-04-27 18:31:21) [GET]
+  [4;36;1mTune Load (0.0ms)[0m   [0;1mSELECT * FROM "tunes" [0m
+Rendering template within layouts/tunes
+Rendering tunes/index
+Completed in 31ms (View: 0, DB: 0) | 200 OK [http://localhost/tunes]
+
+
+Processing TunesController#new (for 127.0.0.1 at 2010-04-27 18:31:22) [GET]
+Rendering template within layouts/tunes
+Rendering tunes/new
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/tunes/new]
+
+
+Processing TunesController#create (for 127.0.0.1 at 2010-04-27 18:31:50) [POST]
+  Parameters: {"commit"=>"Create", "tune"=>{"name"=>"Sylvester", "episode_count"=>"123", "age"=>"12"}, "authenticity_token"=>"yKT3drvS47L6BxN/1n6UAZF7sKJrAcvB7LggwZBJuoM="}
+  [4;35;1mTune Create (0.0ms)[0m   [0mINSERT INTO "tunes" ("name", "updated_at", "episode_count", "age", "created_at") VALUES('Sylvester', '2010-04-27 23:31:50', 123, 12, '2010-04-27 23:31:50')[0m
+Redirected to http://localhost:3333/tunes/2
+Completed in 31ms (DB: 0) | 302 Found [http://localhost/tunes]
+
+
+Processing TunesController#show (for 127.0.0.1 at 2010-04-27 18:31:50) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mTune Load (0.0ms)[0m   [0;1mSELECT * FROM "tunes" WHERE ("tunes"."id" = 2) [0m
+Rendering template within layouts/tunes
+Rendering tunes/show
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/tunes/2]
+
+
+Processing TunesController#index (for 127.0.0.1 at 2010-04-27 18:31:53) [GET]
+  [4;35;1mTune Load (0.0ms)[0m   [0mSELECT * FROM "tunes" [0m
+Rendering template within layouts/tunes
+Rendering tunes/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/tunes]
+
+
+Processing TunesController#new (for 127.0.0.1 at 2010-04-27 18:32:54) [GET]
+Rendering template within layouts/tunes
+Rendering tunes/new
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/tunes/new]
+
+
+Processing TunesController#create (for 127.0.0.1 at 2010-04-27 18:33:19) [POST]
+  Parameters: {"commit"=>"Create", "tune"=>{"name"=>"Wile E Coyotee", "episode_count"=>"1234", "age"=>"56"}, "authenticity_token"=>"yKT3drvS47L6BxN/1n6UAZF7sKJrAcvB7LggwZBJuoM="}
+  [4;36;1mTune Create (0.0ms)[0m   [0;1mINSERT INTO "tunes" ("name", "updated_at", "episode_count", "age", "created_at") VALUES('Wile E Coyotee', '2010-04-27 23:33:19', 1234, 56, '2010-04-27 23:33:19')[0m
+Redirected to http://localhost:3333/tunes/3
+Completed in 16ms (DB: 0) | 302 Found [http://localhost/tunes]
+
+
+Processing TunesController#show (for 127.0.0.1 at 2010-04-27 18:33:19) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mTune Load (0.0ms)[0m   [0mSELECT * FROM "tunes" WHERE ("tunes"."id" = 3) [0m
+Rendering template within layouts/tunes
+Rendering tunes/show
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/tunes/3]
+
+
+Processing TunesController#index (for 10.124.11.123 at 2010-04-27 18:36:07) [GET]
+  [4;36;1mTune Load (0.0ms)[0m   [0;1mSELECT * FROM "tunes" [0m
+Rendering template within layouts/tunes
+Rendering tunes/index
+Completed in 421ms (View: 406, DB: 0) | 200 OK [http://10.96.83.2/tunes]
+
+
+Processing TunesController#index to xml (for 10.124.11.123 at 2010-04-27 18:36:14) [GET]
+  [4;35;1mTune Load (0.0ms)[0m   [0mSELECT * FROM "tunes" [0m
+Completed in 608ms (View: 593, DB: 0) | 200 OK [http://10.96.83.2/tunes.xml]
+
+
+Processing TunesController#index to xml (for 10.96.83.38 at 2010-04-27 18:48:33) [GET]
+  [4;36;1mTune Load (0.0ms)[0m   [0;1mSELECT * FROM "tunes" [0m
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://10.96.83.2/tunes.xml]
+
+
+Processing TunesController#index to xml (for 10.124.11.123 at 2010-04-27 18:48:44) [GET]
+  [4;35;1mTune Load (0.0ms)[0m   [0mSELECT * FROM "tunes" [0m
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://10.96.83.2/tunes.xml]
+
+
+Processing TunesController#index (for 10.124.11.123 at 2010-04-27 18:48:46) [GET]
+  [4;36;1mTune Load (0.0ms)[0m   [0;1mSELECT * FROM "tunes" [0m
+Rendering template within layouts/tunes
+Rendering tunes/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://10.96.83.2/tunes]
+
+
+Processing TunesController#index to xml (for 10.96.83.38 at 2010-04-27 18:49:43) [GET]
+  [4;35;1mTune Load (0.0ms)[0m   [0mSELECT * FROM "tunes" [0m
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://10.96.83.2/tunes.xml]
+
+
+Processing TunesController#index to xml (for 10.96.83.38 at 2010-04-27 18:51:05) [GET]
+  [4;36;1mTune Load (0.0ms)[0m   [0;1mSELECT * FROM "tunes" [0m
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://10.96.83.2/tunes.xml]
+
+
+Processing TunesController#create to xml (for 10.96.83.38 at 2010-04-27 18:51:28) [POST]
+  Parameters: {"tune"=>{"name"=>"Pinky", "episode_count"=>"12200", "age"=>"1"}}
+  [4;35;1mTune Create (0.0ms)[0m   [0mINSERT INTO "tunes" ("name", "updated_at", "episode_count", "age", "created_at") VALUES('Pinky', '2010-04-27 23:51:28', 12200, 1, '2010-04-27 23:51:28')[0m
+Completed in 62ms (View: 0, DB: 0) | 201 Created [http://10.96.83.2/tunes.xml]
+
+
+Processing TunesController#show to xml (for 10.96.83.38 at 2010-04-27 18:51:28) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mTune Load (0.0ms)[0m   [0;1mSELECT * FROM "tunes" WHERE ("tunes"."id" = 4) [0m
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://10.96.83.2/tunes/4.xml]
+
+
+Processing TunesController#index to xml (for 10.96.83.38 at 2010-04-27 18:51:29) [GET]
+  [4;35;1mTune Load (0.0ms)[0m   [0mSELECT * FROM "tunes" [0m
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://10.96.83.2/tunes.xml]
+
+
+Processing TunesController#create to xml (for 10.96.83.38 at 2010-04-27 18:51:47) [POST]
+  Parameters: {"tune"=>{"name"=>"The Brain", "episode_count"=>"122002", "age"=>"1"}}
+  [4;36;1mTune Create (0.0ms)[0m   [0;1mINSERT INTO "tunes" ("name", "updated_at", "episode_count", "age", "created_at") VALUES('The Brain', '2010-04-27 23:51:47', 122002, 1, '2010-04-27 23:51:47')[0m
+Completed in 31ms (View: 16, DB: 0) | 201 Created [http://10.96.83.2/tunes.xml]
+
+
+Processing TunesController#show to xml (for 10.96.83.38 at 2010-04-27 18:51:47) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mTune Load (0.0ms)[0m   [0mSELECT * FROM "tunes" WHERE ("tunes"."id" = 5) [0m
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://10.96.83.2/tunes/5.xml]
+
+
+Processing TunesController#index to xml (for 10.96.83.38 at 2010-04-27 18:51:49) [GET]
+  [4;36;1mTune Load (0.0ms)[0m   [0;1mSELECT * FROM "tunes" [0m
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://10.96.83.2/tunes.xml]
+
+
+Processing TunesController#index to xml (for 10.96.83.38 at 2010-04-27 18:52:43) [GET]
+  [4;35;1mTune Load (0.0ms)[0m   [0mSELECT * FROM "tunes" [0m
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://10.96.83.2/tunes.xml]
+
+
+Processing TunesController#index to xml (for 10.96.83.38 at 2010-04-27 19:00:19) [GET]
+  [4;36;1mTune Load (0.0ms)[0m   [0;1mSELECT * FROM "tunes" [0m
+Completed in 172ms (View: 156, DB: 0) | 200 OK [http://10.96.83.2/tunes.xml]
+
+
+Processing TunesController#index to xml (for 10.96.83.38 at 2010-04-27 19:00:20) [GET]
+  [4;35;1mTune Load (0.0ms)[0m   [0mSELECT * FROM "tunes" [0m
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://10.96.83.2/tunes.xml]
+
+
+Processing TunesController#create to xml (for 10.96.83.38 at 2010-04-27 19:00:39) [POST]
+  Parameters: {"tune"=>{"name"=>"Daffy Duck", "episode_count"=>"Tweety", "age"=>"12"}}
+  [4;36;1mTune Create (0.0ms)[0m   [0;1mINSERT INTO "tunes" ("name", "updated_at", "episode_count", "age", "created_at") VALUES('Daffy Duck', '2010-04-28 00:00:39', 0, 12, '2010-04-28 00:00:39')[0m
+Completed in 2621ms (View: 16, DB: 0) | 201 Created [http://10.96.83.2/tunes.xml]
+
+
+Processing TunesController#show to xml (for 10.96.83.38 at 2010-04-27 19:00:42) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mTune Load (0.0ms)[0m   [0mSELECT * FROM "tunes" WHERE ("tunes"."id" = 6) [0m
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://10.96.83.2/tunes/6.xml]
+
+
+Processing TunesController#index to xml (for 10.96.83.38 at 2010-04-27 19:01:10) [GET]
+  [4;36;1mTune Load (0.0ms)[0m   [0;1mSELECT * FROM "tunes" [0m
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://10.96.83.2/tunes.xml]
